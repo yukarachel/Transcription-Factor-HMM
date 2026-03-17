@@ -1,5 +1,3 @@
-Predicting Transcription Factor Binding Sites using Histone Marks
+Predicting Transcription Factor Binding Sites using Histone Marks as part of Algorithms in Computational Genomics Course:
 
-Implemented the Baum-Welch algorithm to discover transcription factor binding sites in unknown sequences using Hidden Markov Models.
-Trained HMMs on promoter and gene intervals with histone mark data to predict likely gene bodies and promoter regions.
-Strengthened advanced NumPy skills and efficient Python programming through algorithm implementation.
+Implemented the Baum–Welch algorithm to train a Hidden Markov Model (HMM) for discovering transcription factor binding sites in previously unannotated genomic sequences. Using promoter and gene interval data annotated with histone marks, I trained the HMM to learn underlying state transitions and emission probabilities, enabling prediction of likely gene bodies and promoter regions. This project involved extensive use of NumPy for efficient, vectorized computations and reinforced my ability to translate statistical models into scalable Python implementations.
